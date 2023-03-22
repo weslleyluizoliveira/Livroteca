@@ -1,11 +1,17 @@
 <?php
-	
+	//Conexão do servidor
 	$host = "localhost";
+	$user = "vidadepe_glemb";
+	$pass = "131081Tv";
+	$dbname = "vidadepe_vitrine";
+	$port = 3306;
+	
+	//Conexão do servidor interno
+	/*$host = "localhost";
 	$user = "root";
 	$pass = "";
 	$dbname = "vitrine";
-	$port = 3306;
-	
+	$port = 3306;*/
 	
 	
 	Try {

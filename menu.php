@@ -16,19 +16,36 @@
 		<div class="collapse navbar-collapse" id="navbarsExample07">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="aula.php">Quiz Preleção</a>
+                    <a class="nav-link" href="aula.php">Quiz de Treinamento</a>
                 </li>
             </ul>
-			<div class="collapse navbar-collapse" id="navbarsExample07">
+		<div class="collapse navbar-collapse" id="navbarsExample07">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Cadastrar Livro</a>
                 </li>
             </ul>
-        </div>
+        
+		<div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">-</a>
+                </li>
+            </ul>
 			
-        </div>
+			<div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ir.'. <?php echo $_SESSION['current_session']['user']['first_name'] ; ?></a>
+                </li>
+            </ul>
+			
+			
+			
+			</div>
+			</div>
+			</div>			
+			</div>
 		
 		</div>
-    </div>
 </nav>
